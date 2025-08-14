@@ -34,7 +34,7 @@ app.options('*', cors({ origin: '*' }));
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/credit-scribe-hub', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Amritkum360:7004343011@cluster0.1bafcyc.mongodb.net/mailmaestro', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
